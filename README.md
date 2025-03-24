@@ -1,58 +1,70 @@
-#📌 Overview
+# 📌 Overview
 
-This repository contains the implementation of a Deepfake Detection model leveraging Convolutional Neural Networks (CNNs), Vision Transformers (ViT), ResNet, and Logistic Regression. The goal is to detect manipulated facial images and videos using deep learning and traditional machine learning techniques.
+This repository contains the implementation of a **Deepfake Detection** model leveraging **Convolutional Neural Networks (CNNs), Vision Transformers (ViT), ResNet, and Logistic Regression**. The goal is to detect manipulated facial images and videos using deep learning and traditional machine learning techniques.
 
-#🔍 Problem Statement
+## 🔍 Problem Statement
 
-Deepfakes pose a significant threat to digital security, misinformation, and privacy. This project aims to develop a robust model that can efficiently differentiate between real and fake images/videos.
+Deepfakes pose a significant threat to **digital security, misinformation, and privacy**. This project aims to develop a robust model that can efficiently differentiate between **real and fake images/videos**.
 
-#🏗️ Model Architectures
+## 🏗️ Model Architectures
 
 The project explores multiple architectures:
 
-CNN: Captures spatial features and local patterns.
-ResNet: Handles deeper networks using residual connections to prevent vanishing gradients.
-Vision Transformer (ViT): Extracts global dependencies using self-attention mechanisms for effective feature representation.
-Logistic Regression: Acts as a simple baseline model for classification.
+- **CNN**: Captures spatial features and local patterns.  
+- **ResNet**: Handles deeper networks using residual connections to prevent vanishing gradients.  
+- **Vision Transformer (ViT)**: Extracts global dependencies using self-attention mechanisms for effective feature representation.  
+- **Logistic Regression**: Acts as a simple baseline model for classification.  
 
-#📂 Dataset
+## 📂 Dataset
+
 We have used publicly available deepfake datasets such as:
 
-FaceForensics++
-Celeb-DF
+- **FaceForensics++**
+- **Celeb-DF**
 
-#⚙️ Methodology
-Data Preprocessing
-✔️ Face detection and alignment
-✔️ Data augmentation for better generalization
+## ⚙️ Methodology
 
-#Model Training
-✔️ Implemented CNN, ResNet, ViT, and Logistic Regression architectures
-✔️ Used Transfer Learning for better performance
-✔️ Fine-tuned hyperparameters for optimization
+### **Data Preprocessing**
+✔️ Face detection and alignment  
+✔️ Data augmentation for better generalization  
 
-![output](https://github.com/user-attachments/assets/72550fed-c50e-4453-9ad2-368e343ccd67)
+### **Model Training**
+✔️ Implemented **CNN, ResNet, ViT, and Logistic Regression** architectures  
+✔️ Used **Transfer Learning** for better performance  
+✔️ Fine-tuned **hyperparameters** for optimization  
 
-#Evaluation Metrics
-✔️ Accuracy
-✔️ Precision, Recall, and F1-Score
-✔️ AUC-ROC Curve
+![Model Training Output](https://github.com/user-attachments/assets/72550fed-c50e-4453-9ad2-368e343ccd67)
 
-#🛠️ Technologies Used
+### **Evaluation Metrics**
+✔️ **Accuracy**  
+✔️ **Precision, Recall, and F1-Score**  
+✔️ **AUC-ROC Curve**  
 
-Python, TensorFlow/Keras, PyTorch
-OpenCV for image processing
-Matplotlib & Seaborn for visualization
-Scikit-learn for evaluation metrics & Logistic Regression
+## 🛠️ Technologies Used
 
-#🚀 Results
+- **Python**, **TensorFlow/Keras**, **PyTorch**  
+- **OpenCV** for image processing  
+- **Matplotlib** & **Seaborn** for visualization  
+- **Scikit-learn** for evaluation metrics & Logistic Regression  
 
-Our best-performing model achieved:
-✅ CNN: 86.19% Accuracy
-✅ ResNet: 92.68% Accuracy
-✅ ViT: 98.11% Accuracy
-✅ Logistic Regression: 51.05% Accuracy (Baseline Model)
+## 🚀 Results
 
-#📜 Research Paper
+Our best-performing model achieved:  
 
-The research paper detailing this work is available in the repository under DeepFake_Final.pdf.
+✅ **CNN**: **86.19% Accuracy**  
+✅ **ResNet**: **92.68% Accuracy**  
+✅ **ViT**: **98.11% Accuracy**  
+✅ **Logistic Regression**: **51.05% Accuracy** *(Baseline Model)*  
+
+## 📜 Research Paper
+
+The research paper detailing this work is available in the repository under **[`DeepFake_Final.pdf`](./DeepFake_Final.pdf)**.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/deepfake-detection.git
+cd deepfake-detection
+pip install -r requirements.txt
